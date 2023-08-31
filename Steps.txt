@@ -1,0 +1,3 @@
+1- Install Node.js
+2- Install Angular CLI Using npm (npm install @angular/cli@secific_version)
+3- Create New Angular Project (ng new E-Commerce_Store --routing --skip-tests --minimal)
