@@ -1,2 +1,16 @@
 <app-header></app-header>
 
+<!--
+    router-outlet
+    - it is an Angular directive
+    - used to define where the content of routed components should be displayed within the application's layout.
+    - it allows to build single-page applications with multiple views and routes.
+
+    how it's work:
+    - Router Configration: configure the routes you want to use in file like 'app-routing.moudel.ts'
+    - Outlet for Router Content: when you define a '<router-outlet>' element in youe application's template, you are essentially creating a palceholder.
+        this placeholder is where the content of the routed component associated with the current route will be inserted.
+    - when a user navigates to a specific route, Angular's Router matches the URL to the configured routes and determines which component should be displayed for that route.
+        the matched component is then instantiated, and its content is rendered inside the <router-outlet> in your layout.
+-->
+<router-outlet></router-outlet>
