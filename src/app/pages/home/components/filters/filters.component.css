@@ -1,0 +1,11 @@
+/* Hide the radio button */
+.mat-list-option mat-pseudo-checkbox {
+    display: none;
+  }
+  
+  /* Style the selected option (optional) */
+  .mat-list-option.mat-list-item-selected {
+    background-color: #e0e0e0; /* Change the background color for selected items */
+    font-weight: bold; /* Add other styling for selected items */
+  }
+  
